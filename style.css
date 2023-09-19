@@ -30,8 +30,8 @@
     --purple-color: #816bfc;
     --primary-color: #ededed;
     --secondary-color: rgba(0, 0, 0, 0.5);
-    --drop-shadow-1: 50px 50px 36px #07080e,
-        -50px -50px 36px #1d1e36;
+    --drop-shadow-1: 10px 20px 36px #07080e,
+        -10px -30px 36px #1d1e36;
     --drop-shadow-3: 10px 10px 36px #07080e,
         -10px -10px 36px #1d1e36;
     --drop-shadow-2: inset 8px 5px 36px #07080e,
