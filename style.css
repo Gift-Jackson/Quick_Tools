@@ -11,7 +11,7 @@
 }
 
 :root {
-    --bg-color: #f1f2f3;
+    --bg-color: #f9f9f9;
     --purple-color: #816bfc;
     --primary-color: #555;
     --secondary-color: rgba(0, 0, 0, 0.05);
@@ -22,14 +22,14 @@
     --drop-shadow-4: inset 2px 5px 10px #d5d5d5,
         inset -10px 0px 20px #fff;
     --drop-shadow-2: inset 8px 5px 10px #d5d5d5,
-                    inset -10px -10px 10px #fff;
+                    inset -8px -5px 10px #fff;
 }
 
 .dark-theme {
     --bg-color: #121322;
     --purple-color: #816bfc;
     --primary-color: #ededed;
-    --secondary-color: rgba(0, 0, 0, 0.9);
+    --secondary-color: rgba(0, 0, 0, 0.5);
     --drop-shadow-1: 50px 50px 36px #07080e,
         -50px -50px 36px #1d1e36;
     --drop-shadow-3: 10px 10px 36px #07080e,
@@ -162,7 +162,7 @@ main {
 }
 
 .search-box {
-    background-color: var(--bg-color);
+    background-color: var(--secondary-color);
     width: 100%;
     height: 50px;
     display: flex;
@@ -170,7 +170,7 @@ main {
     padding: 0 1rem;
     gap: 20px;
     border-radius: 10px;
-    box-shadow: var(--drop-shadow-2);
+    /* box-shadow: var(--drop-shadow-2); */
 }
 
 .search-box span {
